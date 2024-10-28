@@ -1,0 +1,160 @@
+/* Page layout and styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Matching the font style */
+    background-color: #f6e8da; /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar Styling */
+.top-bar {
+    background-color: #d29883; /* Light pink color for top bar */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fef5e7; /* Matching background color */
+    padding: 10px 20px;
+    border-bottom: 2px solid #b5856d; /* Bottom border matching the image */
+}
+
+.nav-logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4a2e2a; /* Brownish color for the text */
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.cart-icon img {
+    height: 25px;
+}
+
+/* Brown Box with Title Styling */
+.brown-box {
+    background-color: #8b5a50; /* Dark brown box color */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: flex-start; /* Adjusts alignment to left */
+    align-items: center; /* Vertically center items */
+    padding: 30px 20px; /* Padding to create space inside the box */
+    font-size: 30px; /* Adjusted font size */
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%; /* Makes the box stretch full width */
+}
+
+.brown-box .title {
+    margin-right: auto; /* Pushes the text to the left */
+    font-size: 40px; /* Matches the size in the image */
+}
+
+.brown-box img {
+    width: 100px; /* Otter icon size as per image */
+    margin-right: 20px; /* Push the otter more to the right */
+}
+
+/* Main section styling */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* Left section styling */
+.contact-info {
+    background-color: #8b5a50; /* Dark brown background */
+    color: white; /* White text */
+    padding: 180px;
+    width: 30%;
+    text-align: left;
+    font-size: 18px; /* Match font size */
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info img {
+    width: 100px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/* Middle section styling */
+.middle-section {
+    text-align: center;
+    width: 40%;
+    color: #4a2e2a; /* Dark brown text */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.middle-section img {
+    width: 200px;
+    margin-top: 10px;
+}
+
+/* Right section styling */
+.right-section {
+    width: 30%;
+    text-align: center;
+    color: #4a2e2a; /* Dark brown text */
+    font-size: 18px;
+}
+
+.right-section img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.right-section p {
+    margin: 10px 0;
+}
+
+/* Social Media Icons */
+.social-icons {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Floating chat icon */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-icon img {
+    width: 60px;
+    height: 60px;
+}

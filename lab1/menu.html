@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - Pets&Pearls Bakery</title>
+<style>
+        /* General styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8ecd8;
+            margin: 0;
+            padding: 0;
+            color: #4A2E2A;
+        }
+ 
+        /* Top Bar */
+        .top-bar {
+            background-color: #eaa98a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+ 
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fef5e7;
+            padding: 10px 20px;
+            border-bottom: 1px solid #d29883;
+        }
+ 
+        .nav-logo img {
+            height: 50px;
+        }
+ 
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+ 
+        .nav-links a {
+            text-decoration: none;
+            color: #4A2E2A;
+            font-size: 16px;
+            font-weight: 600;
+        }
+ 
+        .cart-icon img {
+            height: 25px;
+        }
+ 
+        /* Menu Section */
+        .menu-section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+ 
+        .menu-section h2 {
+            font-size: 34px;
+            color: #4a2e2a;
+            font-weight: bold;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #d29883;
+            padding-bottom: 10px;
+        }
+ 
+        /* Menu Items */
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d29883;
+        }
+ 
+        .menu-item h3 {
+            font-size: 24px;
+            margin: 0;
+            color: #4A2E2A;
+        }
+ 
+        .menu-item p {
+            font-size: 16px;
+            margin: 5px 0 0;
+            color: #6c4c46;
+        }
+ 
+        .menu-item .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4A2E2A;
+            margin-left: 20px;
+        }
+ 
+        .menu-item img {
+            height: 120px;
+            width: auto;
+            border-radius: 12px;
+        }
+ 
+        /* Social Media Icons */
+        .social-icons {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+ 
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+ 
+        /* Floating Chat Icon */
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+ 
+        .chat-icon img {
+            width: 50px;
+            height: 50px;
+        }
+ 
+    </style>
+</head>
+ 
+<body>
+<!-- Top Bar -->
+<div class="top-bar">
+        Mon - Fri: 8AM - 8PM | Saturday: 9AM - 7PM | Sunday: 9AM - 8PM
+</div>
+ 
+    <!-- Navigation Bar -->
+<nav>
+<div class="nav-logo">
+<img src="download.png" alt="Pets&Pearls Logo">
+</div>
+<div class="nav-links">
+<a href="Home.html">HOME</a> <!-- Link to the Home page -->
+<a href="#">MENU</a> <!-- Current Page -->
+<a href="contact.html">CONTACT</a> <!-- Link to the Contact page -->
+</div>
+<div class="cart-icon">
+<img src="cart.png" alt="Cart Icon">
+<span class="cart-count">0</span>
+</div>
+</nav>
+ 
+    <!-- Menu Section -->
+<section class="menu-section">
+<h2>Bakery Bites</h2>
+ 
+        <div class="menu-item">
+<div>
+<h3>Blueberry Vanilla Cheesecake</h3>
+<p>Rich and creamy cheesecake topped with fresh blueberries and a hint of vanilla.</p>
+</div>
+<div class="price">5.00 د.إ</div>
+<img src="bluebrry.png" alt="Blueberry Vanilla Cheesecake">
+</div>
+ 
+        <div class="menu-item">
+<div>
+<h3>Matcha Strawberry Pastry</h3>
+<p>Delicate pastry filled with matcha and strawberry cream for a balanced flavor.</p>
+</div>
+<div class="price">3.75 د.إ</div>
+<img src="strwmatcha.png" alt="Matcha Strawberry Pastry">
+</div>
+ 
+        <div class="menu-item">
+<div>
+<h3>Chocolate Oreo Cake</h3>
+<p>Layered chocolate cake with Oreo cookie crumbles, topped with rich chocolate frosting.</p>
+</div>
+<div class="price">6.00 د.إ</div>
+<img src="choc oreo.png" alt="Chocolate Oreo Cake">
+</div>
+ 
+        <h2>Bubble Tea</h2>
+ 
+        <div class="menu-item">
+<div>
+<h3>Brown Sugar Bubble Tea</h3>
+<p>Creamy milk tea swirled with sweet brown sugar and chewy tapioca pearls.</p>
+</div>
+<div class="price">5.00 د.إ</div>
+<img src="brwnsgrboba.png" alt="Brown Sugar Bubble Tea">
+</div>
+ 
+        <div class="menu-item">
+<div>
+<h3>Strawberry Passionfruit Bubble Tea</h3>
+<p>Refreshing blend of strawberry and passionfruit flavors, with chewy boba pearls.</p>
+</div>
+<div class="price">5.50 د.إ</div>
+<img src="strwbubble.png" alt="Strawberry Passionfruit Bubble Tea">
+</div>
+ 
+        <div class="menu-item">
+<div>
+<h3>Fizzy Pomegranate Bubble Tea</h3>
+<p>Unique fizzy tea with tart pomegranate flavor, topped with popping boba pearls.</p>
+</div>
+<div class="price">6.00 د.إ</div>
+<img src="pombubble.png" alt="Fizzy Pomegranate Bubble Tea">
+</div>
+</section>
+ 
+    <!-- Chat Icon -->
+<div class="chat-icon">
+<img src="chaticon.png" alt="Chat Icon">
+</div>
+ 
+</body>
+ 
+</html>

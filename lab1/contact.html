@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pets&Pearls Bakery</title>
+    <style>
+        /* General Page Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f6e8da;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            background-color: #d29883;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fef5e7;
+            padding: 10px 20px;
+            border-bottom: 2px solid #b5856d;
+        }
+
+        .nav-logo img {
+            height: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #4a2e2a;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .cart-icon img {
+            height: 25px;
+        }
+
+        /* Brown Box */
+        .brown-box {
+            background-color: #8b5a50;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .brown-box .title {
+            margin-left: 40px;
+            font-size: 28px;
+        }
+
+        .brown-box img {
+            width: 80px;
+            margin-right: 40px;
+        }
+
+        /* Main Section */
+        .main-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        /* Left Section: Contact Info */
+        .contact-info {
+            background-color: #8b5a50;
+            color: white;
+            padding: 60px;
+            width: 30%;
+            font-size: 18px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info img {
+            width: 100px;
+            display: block;
+            margin: 20px auto 0 auto;
+        }
+
+        /* Middle Section: Stay on the Sweet Side */
+        .middle-section {
+            text-align: center;
+            width: 40%;
+            color: #4a2e2a;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* Enlarged image */
+        .middle-section img {
+            width: 270px; /* Increased image size */
+            margin-top: 10px;
+        }
+
+        /* Right Section: Questions */
+        .right-section {
+            width: 30%;
+            text-align: center;
+            color: #4a2e2a;
+            font-size: 14px;
+        }
+
+        .right-section img {
+            width: 100px;
+            margin-top: 40px;
+        }
+
+        .right-section h2 {
+            margin-bottom: 40px;
+        }
+
+        .right-section img.cookies-icon {
+            width: 250px;
+            margin-top: -20px;
+            margin-bottom: 20px;
+        }
+
+        .right-section p {
+            margin: 10px 0;
+        }
+
+        /* Form Styling */
+        #contactFormContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center all items */
+            margin: 40px 0; /* Spacing around the form */
+        }
+
+        #contactForm {
+            display: inline-block;
+            text-align: left;
+            background-color: #fff;
+            padding: 30px; /* Increased padding */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%; /* Make responsive */
+            max-width: 400px; /* Max width */
+        }
+
+        #contactForm input,
+        #contactForm button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        #contactForm button {
+            background-color: #4e44a7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer; /* Show pointer cursor on hover */
+        }
+
+        /* Floating chat icon */
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .chat-icon img {
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        Mon - Fri: 8AM - 8PM | Saturday: 9AM - 7PM | Sunday: 9AM - 8PM
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-logo">
+            <img src="download.png" alt="Pets&Pearls Logo">
+        </div>
+        <div class="nav-links">
+            <a href="Home.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div class="cart-icon">
+            <img src="cart.png" alt="Cart Icon">
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- Brown Box with CONTACT US Title -->
+    <div class="brown-box">
+        <div class="title">CONTACT US</div>
+        <img src="capy.png" alt="Otter Icon">
+    </div>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <!-- Left Section: Contact Info -->
+        <div class="contact-info">
+            <h2>Come Say Hi!</h2>
+            <p>Mon - Fri: 8am - 8pm</p>
+            <p>Saturday: 9am - 7pm</p>
+            <p>Sunday: 9am - 8pm</p>
+            <p>Jumeirah 2, Tulip Street</p>
+            <p>800 463 779</p>
+            <p>petspearl@gmail.com</p>
+        </div>
+
+        <!-- Middle Section: Stay on the Sweet Side! -->
+        <div class="middle-section">
+            <h2>Stay on the Sweet Side!</h2>
+            <img src="otterfish.png" alt="Otter Holding Balloon">
+        </div>
+
+        <!-- Right Section: Have Any Questions? -->
+        <div class="right-section">
+            <h2>Have Any Questions?</h2>
+            <img src="otterQ.png" alt="Otter Icon" class="cookies-icon">
+            <p>Please enquire at the counter, our manager is always available for help. Your feedback matters to us!</p>
+            <img src="coffee.png" alt="Coffee Machine" class="coffee-machine">
+            <p class="happy-hours">Psst! Make sure to visit our bakery during happy hours for free Asian pastries!</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contactFormContainer">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="submitContactForm(event)">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="Home.html">Back to Home</a>
+    </section>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script>
+        // Firebase configuration copied from Firebase Console
+        var firebaseConfig = {
+            apiKey: "AIzaSyCiIr7VmebrRNpIAAvHDu13VO1Q1-nuIrE",
+            authDomain: "petspearls-a6e60.firebaseapp.com",
+            databaseURL: "https://petspearls-a6e60-default-rtdb.firebaseio.com",
+            projectId: "petspearls-a6e60",
+            storageBucket: "petspearls-a6e60.appspot.com",
+            messagingSenderId: "635521236335",
+            appId: "1:635521236335:web:424c16b6aca32709d3fc9a"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Reference to the Realtime Database
+        var database = firebase.database();
+
+        // Function to submit data to Firebase
+        function submitContactForm(event) {}
+            event.preventDefault(); // Prevent the form from refreshing the page
+            var name = document.getElementById("name").value
+            

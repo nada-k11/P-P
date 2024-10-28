@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pets&Pearls Bakery</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+        /* Additional styling to move text closer to the top */
+        .top-bar {
+            background-color: #d29883; /* Light pink color */
+            color: #fff;
+            text-align: center;
+            padding: 3px 0; /* Reduce padding to bring it closer to the top */
+            font-size: 14px;
+        }
+ 
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 20px; /* Reduce padding to make the navigation bar more compact */
+            background-color: #f4eee8;
+        }
+ 
+        .nav-logo {
+            display: flex;
+            align-items: center;
+        }
+ 
+        .site-title {
+            font-size: 32px; /* Increase font size for bigger text */
+            margin-left: 10px; /* Adjust margin to tighten spacing */
+            font-weight: bold;
+            color: #000;
+        }
+ 
+        .nav-links {
+            display: flex;
+            flex: 1;
+            justify-content: space-around; /* Spread out the links */
+        }
+ 
+        .nav-links a {
+            padding: 0 20px; /* Increase padding to spread out the links */
+            text-decoration: none;
+            color: #000;
+            font-size: 16px; /* Optional: Adjust font size if needed */
+        }
+ 
+        .cart-icon {
+            position: relative;
+        }
+ 
+        .cart-count {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 50%;
+            padding: 2px 5px;
+            font-size: 12px;
+        }
+ 
+        .main-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+ 
+        .left-section {
+            position: relative; /* Set relative positioning */
+            flex: 1;
+            height: 500px; /* Adjust as needed */
+        }
+ 
+        .icon {
+            position: absolute;
+            width: 100px; /* Increase size of the icons */
+            height: 100px;
+        }
+ 
+        /* Random positions for each icon */
+        .icon:nth-child(1) { top: 20px; left: 30px; }
+        .icon:nth-child(2) { top: 70px; left: 280px; }
+        .icon:nth-child(3) { top: 270px; left: 50px; }
+        .icon:nth-child(4) { top: 360px; left: 240px; }
+        .icon:nth-child(5) { top: 320px; left: 500px; }
+        .icon:nth-child(6) { top: 20px; left: 500px; }
+        .icon:nth-child(7) { top: 500px; left: 400px; }
+        .icon:nth-child(8) { top: 500px; left: 70px; }
+ 
+        .cta-button {
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 30px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); /* Center the button */
+            font-size: 18px; /* Optional: Increase font size */
+        }
+ 
+        .right-section {
+            flex: 1;
+        }
+ 
+        .hero-image {
+            width: 100%;
+            height: auto;
+        }
+</style>
+</head>
+ 
+<body>
+<!-- Top Bar -->
+<div class="top-bar">
+        Mon - Fri: 8AM - 8PM | Saturday: 9AM - 7PM | Sunday: 9AM - 8PM
+</div>
+ 
+    <!-- Navigation Bar -->
+<nav class="nav-bar">
+<div class="nav-logo">
+<img src="download.png" alt="Pets&Pearls Logo" class="logo">
+<h1 class="site-title">Pets&Pearls</h1>
+</div>
+<div class="nav-links">
+<a href="index.html">HOME</a> <!-- Link to the homepage -->
+<a href="menu.html">MENU</a> <!-- Link to the Menu page -->
+<a href="contact.html">CONTACT</a> <!-- Link to the Contact page -->
+</div>
+<div class="cart-icon">
+<img src="cart.png" alt="Cart Icon">
+<span class="cart-count">0</span>
+</div>
+</nav>
+ 
+    <!-- Main Section -->
+<section class="main-section">
+<!-- Left Section: Icons and Button -->
+<div class="left-section">
+<div class="icons-container">
+<img src="cake1.png" alt="Dessert Icon" class="icon">
+<img src="boba1.png" alt="Dessert Icon" class="icon">
+<img src="pastry1.png" alt="Dessert Icon" class="icon">
+<img src="cake2.png" alt="Dessert Icon" class="icon">
+<img src="boba2.png" alt="Dessert Icon" class="icon">
+<img src="cake3.png" alt="Dessert Icon" class="icon">
+<img src="pastry2.png" alt="Dessert Icon" class="icon">
+<img src="pastry3.png" alt="Dessert Icon" class="icon">
+</div>
+<a href="menu.html" class="cta-button">EXPLORE OUR BAKERY</a> <!-- Link to Menu page -->
+</div>
+ 
+        <!-- Right Section: Hero Image -->
+<div class="right-section">
+<img src="backgr.png" alt="Large Image" class="hero-image">
+</div>
+</section>
+ 
+</body>
+ 
+</html>
+
